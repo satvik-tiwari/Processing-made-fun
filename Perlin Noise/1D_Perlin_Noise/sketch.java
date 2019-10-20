@@ -12,7 +12,7 @@ void draw()
   stroke(255);
   noFill();
   beginShape();
-  for(int x = 0; x < width; x++)
+  for(int x = 0; x < width; x+=1)
   {
    stroke(255); 
    float y = map(noise(xoff), 0, 1, 0, height);
